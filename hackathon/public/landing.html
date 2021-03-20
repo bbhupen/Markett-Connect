@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <h1>Home page</h1>
+<body>
+
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+
+
+    
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyC7jDITGWIHovZo9pvL2WfNXyNjx1ztIqE",
+            authDomain: "database-ed6ee.firebaseapp.com",
+            databaseURL: "https://database-ed6ee.firebaseio.com",
+            projectId: "database-ed6ee",
+            storageBucket: "database-ed6ee.appspot.com",
+            messagingSenderId: "256748321148",
+            appId: "1:256748321148:web:1b091e2460e242550c0cf9",
+            measurementId: "G-SHFP8HQFJY"
+        };
+        firebase.initializeApp(config);
+
+        function logout(){
+        firebase.auth().signOut();
+        }
+
+    </script>
+    
+</body>
+</html>
