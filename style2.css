@@ -1,0 +1,46 @@
+.firstSection
+{
+	height: auto;
+	width: 100%
+}
+.nav-link
+{
+	font-size: 1rem;
+}
+
+
+/*second */
+.secondSection
+{
+	height: auto;
+	width: 100%;
+}
+.head
+{
+	background-color: #E4E6EB;
+}
+.footer
+{
+	background-color: #000;
+	color: #fff;
+	padding-bottom: 1%;
+	margin-top:  3%;
+	
+}
+
+.k{
+	background-image: url(images/b2.jpg);
+}
+
+.t
+{
+	border-radius: 5%;
+}
+
+a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+

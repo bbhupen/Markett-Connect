@@ -1,0 +1,45 @@
+.firstSection
+{
+	height: auto;
+	width: 100%
+}
+.nav-link
+{
+	font-size: 1rem;
+}
+
+
+/*second */
+.secondSection
+{
+	height: auto;
+	width: 100%;
+}
+
+/*third*/
+.thirdSection
+{
+	height: auto;
+	width: 100%;
+}
+
+.fourth
+{
+	margin-top: 5%;
+	background-color: #eff0f1;
+}
+
+.footer
+{
+	background: black;
+	color: white;
+	margin-top:  3%;
+	padding-bottom: 1%;
+	
+}
+
+a
+{
+	color: #000;
+	text-decoration: none;
+}
